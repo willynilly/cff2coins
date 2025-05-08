@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: some-software
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Some
+    family-names: One
+    email: some978248321748sdfasfsdfj45@gmail.com
+    orcid: "https://orcid.org/some978248321748sdfasfsdfj45"
+repository-code: >-
+  https://github.com/willynilly/some978248321748sdfasfsdfj45
+abstract: >-
+  Does something.
+keywords:
+  - some
+  - thing
+license: Apache-2.0
+version: "1.0.0"
+date-released: "2025-05-06"

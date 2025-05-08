@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+title: some-software
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Some
+    family-names: One
+    email: some978248321748sdfasfsdfj45@gmail.com
+    orcid: "https://orcid.org/some978248321748sdfasfsdfj45"
+repository-code: >-
+  https://github.com/willynilly/some978248321748sdfasfsdfj45
+abstract: >-
+  Does something.
+keywords:
+  - some
+  - thing
+license: Apache-2.0
+version: "1.0.0"
+date-released: "2025-05-06"
+references:
+  - title: "PyYAML"
+    type: software
+    version: "6.0.2"
+    license: MIT 
+    authors:
+      - family-names: Simonov
+        given-names: Kirill
+        email: xi@resolvent.net
+    repository-code: https://github.com/yaml/pyyaml
+  - title: another-software
+    version: "100.5.2"
+    type: software
+    license: MIT
+    date-released: 2024-11-01
+    abstract: Does something else
+    identifiers:
+    - type: doi
+      value: 10.5281/zenodo.nj8345jdsf90345jskljsdfg
+    authors:
+    - given-names: Bò
+      family-names: Ba
+      email: bo.ba.j43jh2345j435@wu9sdfkgk43kjdfg.org
+      affiliation: >-
+        Some company
+      orcid: "https://orcid.org/0009-0000-1441-3454kjkljdfgjsdkfgjsdfg"
+    - given-names: Sa
+      name-particle: III
+      family-names: Ba
+      name-suffix: III
+      email: sa.ba@kjklj98aksldfjkl32dsfg.com
+      affiliation: >-
+        Some non-profit
+      orcid: "https://orcid.org/0000-0003-1341-2345kjklajsdfjalksdjfvuy"
+  

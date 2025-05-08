@@ -1,0 +1,67 @@
+[
+    {
+        "coin_span": [
+            [
+                "url_ver",
+                "Z39.88-2004"
+            ],
+            [
+                "ctx_ver",
+                "Z39.88-2004"
+            ],
+            [
+                "rfr_id",
+                "info:sid/zotero.org:2"
+            ],
+            [
+                "rft_val_fmt",
+                "info:ofi/fmt:kev:mtx:dc"
+            ],
+            [
+                "rft.type",
+                "computerProgram"
+            ],
+            [
+                "rft.title",
+                "MyApp"
+            ],
+            [
+                "rft.publisher",
+                "Some Company"
+            ],
+            [
+                "rft.description",
+                "This is an example dummy software for testing."
+            ],
+            [
+                "rft.identifier",
+                "https://zenodo.org/records/15304606"
+            ],
+            [
+                "rft.aufirst",
+                "Will"
+            ],
+            [
+                "rft.aulast",
+                "Riley"
+            ],
+            [
+                "rft.au",
+                "Will Riley"
+            ],
+            [
+                "rft.au",
+                "Wilò Rilü"
+            ],
+            [
+                "rft.au",
+                "Wil van Rilo"
+            ],
+            [
+                "rft.date",
+                "2024-04-30"
+            ]
+        ],
+        "references": []
+    }
+]

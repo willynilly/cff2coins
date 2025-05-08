@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cff2coins"
+version = "1.0.0"
+description = "Creates COinS tags from CFF files. Can be used to help Zotero cite your software and datasets."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "Apache-2.0"
+license-files = ["LICEN[CS]E*"]
+keywords = ["CFF", "COinS", "Zotero", "parser", "citation", "metadata"]
+authors = [
+  { name = "Will Riley", email = "wanderingwill@gmail.com" },
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development",
+    "Topic :: Utilities"
+]
+dependencies = ["coins-parser>=2.0.0", "pyyaml>=6.0.2"]
+
+[project.urls]
+Homepage = "https://github.com/willynilly/cff2coins"
+Documentation = "https://github.com/willynilly/cff2coins#readme"
+Issues = "https://github.com/willynilly/cff2coins/issues"
+Source = "https://github.com/willynilly/cff2coins"
+
+[project.optional-dependencies]
+testing = [
+    "pytest>=8.3.5",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]
+
+[tool.hatch.build.targets.sdist.force-include]
+"CITATION.cff" = "src/cff2coins/CITATION.cff"

@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+title: cff2coins
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Will
+    family-names: Riley
+    email: wanderingwill@gmail.com
+    orcid: "https://orcid.org/0000-0003-1822-6756"
+repository-code: >-
+  https://github.com/willynilly/cff2coins
+abstract: >-
+  Creates COinS tags from CFF files. Can be used to help Zotero cite your software and datasets.
+keywords:
+  - CFF
+  - COinS
+  - Zotero
+  - parser
+  - citation
+  - metadata
+license: Apache-2.0
+version: "1.0.0"
+date-released: "2025-05-08"
+references:
+  - title: "coins-parser"
+    type: software
+    version: "2.0.0"
+    license: Apache-2.0
+    authors:
+      - given-names: Will
+        family-names: Riley
+        email: wanderingwill@gmail.com
+        orcid: "https://orcid.org/0000-0003-1822-6756"
+    repository-code: https://github.com/willynilly/coins-parser
+  - title: "PyYAML"
+    type: software
+    version: "6.0.2"
+    license: MIT 
+    authors:
+      - family-names: Simonov
+        given-names: Kirill
+        email: xi@resolvent.net
+    repository-code: https://github.com/yaml/pyyaml

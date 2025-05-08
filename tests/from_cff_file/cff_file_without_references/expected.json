@@ -1,0 +1,53 @@
+{
+    "coin_span": [
+        [
+            "url_ver",
+            "Z39.88-2004"
+        ],
+        [
+            "ctx_ver",
+            "Z39.88-2004"
+        ],
+        [
+            "rfr_id",
+            "info:sid/github.willynilly:cff2coins-unknown"
+        ],
+        [
+            "rft_val_fmt",
+            "info:ofi/fmt:kev:mtx:computerProgram"
+        ],
+        [
+            "rft.title",
+            "some-software"
+        ],
+        [
+            "rft.date",
+            "2025-05-06"
+        ],
+        [
+            "rft.description",
+            "Does something."
+        ],
+        [
+            "rft.version",
+            "1.0.0"
+        ],
+        [
+            "rft.rights",
+            "Apache-2.0"
+        ],
+        [
+            "rft.au",
+            "Some One"
+        ],
+        [
+            "rft_val_fmt",
+            "info:ofi/fmt:kev:mtx:dc"
+        ],
+        [
+            "rft.type",
+            "computerProgram"
+        ]
+    ],
+    "references": []
+}
