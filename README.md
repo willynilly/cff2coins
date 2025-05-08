@@ -1,6 +1,6 @@
 # cff2coins
 
-Creates COinS tags from CFF files. Can be used to help Zotero cite your software.
+Creates COinS tags from CFF files. Can be used to help Zotero cite your software and datasets.
 
 [![PyPI - Version](https://img.shields.io/pypi/v/cff2coins.svg)](https://pypi.org/project/cff2coins)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cff2coins.svg)](https://pypi.org/project/cff2coins)
