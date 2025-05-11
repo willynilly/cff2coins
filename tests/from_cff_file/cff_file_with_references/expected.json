@@ -49,6 +49,7 @@
             "computerProgram"
         ]
     ],
+    "preferred_citation": null,
     "references": [
         {
             "coin_span": [
@@ -93,6 +94,7 @@
                     "computerProgram"
                 ]
             ],
+            "preferred_citation": null,
             "references": []
         },
         {
@@ -134,8 +136,8 @@
                     "MIT"
                 ],
                 [
-                    "rft.identifier",
-                    "doi:10.5281/zenodo.nj8345jdsf90345jskljsdfg"
+                    "rft_id",
+                    "https://doi.org/10.5281/zenodo.nj8345jdsf90345jskljsdfg"
                 ],
                 [
                     "rft.au",
@@ -154,7 +156,8 @@
                     "computerProgram"
                 ]
             ],
-            "references": []
+            "references": [],
+            "preferred_citation": null
         }
     ]
 }

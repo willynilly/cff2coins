@@ -49,6 +49,7 @@
             "computerProgram"
         ]
     ],
+    "preferred_citation": null,
     "references": [
         {
             "coin_span": [
@@ -93,6 +94,7 @@
                     "computerProgram"
                 ]
             ],
+            "preferred_citation": null,
             "references": []
         },
         {
@@ -154,6 +156,7 @@
                     "computerProgram"
                 ]
             ],
+            "preferred_citation": null,
             "references": []
         }
     ]

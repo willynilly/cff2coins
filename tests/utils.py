@@ -19,6 +19,7 @@ def load_json_string(test_group: str, test_name: str, file_name: str) -> str:
             Path("tests", test_group, test_name, file_name).read_text(encoding="UTF-8")
         ),
         ensure_ascii=False,
+        sort_keys=True,
     )
 
 
@@ -41,7 +42,7 @@ def run_from_cff_file_test(test_name: str) -> tuple[str, str]:
         cff_file_path=input_cff_file_path
     )
     actual_json = json.dumps(
-        cff_coin_span, cls=CffCoinSpanJsonEncoder, ensure_ascii=False
+        cff_coin_span, cls=CffCoinSpanJsonEncoder, ensure_ascii=False, sort_keys=True
     )
 
     expected_json: str = load_json_string(
@@ -58,7 +59,7 @@ def run_from_html_file_test(test_name: str) -> tuple[str, str]:
         html_file_path=input_html_file_path
     )
     actual_json = json.dumps(
-        cff_coin_spans, cls=CffCoinSpanJsonEncoder, ensure_ascii=False
+        cff_coin_spans, cls=CffCoinSpanJsonEncoder, ensure_ascii=False, sort_keys=True
     )
     expected_json: str = load_json_string(
         test_group=test_group, test_name=test_name, file_name="expected.json"
@@ -74,7 +75,7 @@ def run_from_html_string_test(test_name: str) -> tuple[str, str]:
 
     cff_coin_spans: list[CffCoinSpan] = CffCoinSpan.from_html_string(input_html)
     actual_json = json.dumps(
-        cff_coin_spans, cls=CffCoinSpanJsonEncoder, ensure_ascii=False
+        cff_coin_spans, cls=CffCoinSpanJsonEncoder, ensure_ascii=False, sort_keys=True
     )
     expected_json: str = load_json_string(
         test_group=test_group, test_name=test_name, file_name="expected.json"
